@@ -16,7 +16,7 @@ def self.all
   @@all
 end
 
-def Owner.count
+def self.count
   @@count
 end
 
