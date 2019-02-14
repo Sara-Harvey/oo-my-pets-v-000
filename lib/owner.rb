@@ -68,8 +68,8 @@ def sell_pets
   buy_fish(name)
   buy_dog(name)
   buy_cat(name)
-@pets.each do |key, value|
-  pets.mood = "nervous"
+@pets#.each do |key, value|
+  #pets.mood = "nervous"
 end
 end
   
