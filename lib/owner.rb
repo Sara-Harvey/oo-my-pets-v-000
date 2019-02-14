@@ -66,8 +66,11 @@ end
 
 def sell_pets
   buy_fish(name)
-  @pets[:fishes].each do |fish|
-    fish.mood = "nervous"
+  buy_dog(name)
+  buy_cat(name)
+@pets.each do |key, value|
+  value << @mood = "nervous"
 end
 end
+  
 end
