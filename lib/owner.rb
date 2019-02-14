@@ -29,43 +29,43 @@ def say_species
 end
 
 def buy_fish(name)
-  @pets[:fishes] << Fish.new(name)
-  @pets
+  pets[:fishes] << Fish.new(name)
+  pets
 end
 
 def buy_cat(name)
-  @pets[:cats] << Cat.new(name)
-  @pets
+  pets[:cats] << Cat.new(name)
+  pets
 end
 
 def buy_dog(name)
-  @pets[:dogs] << Dog.new(name)
-  @pets
+  pets[:dogs] << Dog.new(name)
+  pets
 end
 
 def walk_dogs
-  buy_dog(name)
-  @pets[:dogs].each do |dog|
+  #buy_dog(name)
+  pets[:dogs].each do |dog|
     dog.mood = "happy"
   end
 end
 
 def play_with_cats
-  buy_cat(name)
-  @pets[:cats].each do |cat|
+  #buy_cat(name)
+  pets[:cats].each do |cat|
     cat.mood = "happy"
 end 
 end
 
 def feed_fish
-  buy_fish(name)
-  @pets[:fishes].each do |fish|
+  #buy_fish(name)
+  pets[:fishes].each do |fish|
     fish.mood = "happy"
 end
 end
 
 def sell_pets
-  @pets.each do |type, animals|
+  pets.each do |type, animals|
   animals.each do |animal|
   animal.mood = "nervous"
 end
