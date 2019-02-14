@@ -64,7 +64,7 @@ def feed_fish
 end
 end
 
-def Owner.sell_pets
+def sell_pets
   buy_fish(name)
   buy_dog(name)
   buy_cat(name)
