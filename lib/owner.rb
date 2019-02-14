@@ -66,7 +66,9 @@ end
 
 def sell_pets
 pets.each do |type, pet|
-  #pets.mood = "nervous"
+  pet.each do 
+    
+    .mood = "nervous"
 end
 end
   
