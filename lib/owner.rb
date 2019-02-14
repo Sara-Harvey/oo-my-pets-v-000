@@ -65,7 +65,7 @@ end
 end
 
 def sell_pets
-pets.each do |key, value|
+pets.each do |type, pet|
   #pets.mood = "nervous"
 end
 end
