@@ -65,6 +65,9 @@ end
 end
 
 def Owner.sell_pets
+  buy_fish(name)
+  buy_dog(name)
+  buy_cat(name)
 Owner.pets.each do |key, value|
   mood = "nervous"
 end
