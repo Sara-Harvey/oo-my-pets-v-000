@@ -30,17 +30,17 @@ end
 
 def buy_fish(name)
   pets[:fishes] << Fish.new(name)
-  pets
+  #pets
 end
 
 def buy_cat(name)
   pets[:cats] << Cat.new(name)
-  pets
+  #pets
 end
 
 def buy_dog(name)
   pets[:dogs] << Dog.new(name)
-  pets
+  #pets
 end
 
 def walk_dogs
