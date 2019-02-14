@@ -67,4 +67,7 @@ end
 end
 end
   
+  def list_pets
+    pets
+  
 end
